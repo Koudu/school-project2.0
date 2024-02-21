@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(0, 241, 221);
+}
+
+@font-face {
+    font-family: 'League';
+    src: url('/src/Assets/Font/League.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BalooBhaijaan2SemiBol';
+    src: url('/src/Assets/Font/BalooBhaijaan2-SemiBold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.MainImg {
+    height: 500px;
+}
+
+.ImgCircle {
+    margin: 87px 0px 0px 7px;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 100%;
+    position: relative;
+}
+
+.ImgSatoruGojo {
+    margin-left: 100px;
+    top: -450px;
+    width: 200px;
+    height: 500px;
+    position: relative;
+}
+
+.Name {
+    font-family: 'BalooBhaijaan2SemiBol';
+    font-size: 50px;
+}
